@@ -2,12 +2,12 @@ Summary:	HTML editing
 Summary(pl):	Edycja HTML
 Name:		xemacs-hm--html-menus-pkg
 %define		srcname	hm--html-menus
-Version:	1.18
+Version:	1.23
 Release:	1
 License:	GPL
 Group:		Applications/Editors/Emacs
 Source0:	ftp://ftp.xemacs.org/xemacs/packages/%{srcname}-%{version}-pkg.tar.gz
-# Source0-md5:	ad6c2d438e56fdc1cf0a81945f52605d
+# Source0-md5:	c625e8070a7abfed6fb1f13d04a38e51
 URL:		http://www.xemacs.org/
 Patch0:		%{name}-info.patch
 BuildArch:	noarch

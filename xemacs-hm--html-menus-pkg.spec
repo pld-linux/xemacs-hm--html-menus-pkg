@@ -2,7 +2,7 @@ Summary:	HTML editing
 Summary(pl):	Edycja HTML
 Name:		xemacs-hm--html-menus-pkg
 %define		srcname	hm--html-menus
-Version:	1.17
+Version:	1.18
 Release:	1
 License:	GPL
 Group:		Applications/Editors/Emacs

@@ -1,0 +1,25 @@
+diff -Nur xemacs-hm--html-menus-pkg-1.14/man/hm--html-menus/hm--html-mode.texi xemacs-hm--html-menus-pkg-1.14.new/man/hm--html-menus/hm--html-mode.texi
+--- xemacs-hm--html-menus-pkg-1.14/man/hm--html-menus/hm--html-mode.texi	Fri Dec  4 22:11:23 1998
++++ xemacs-hm--html-menus-pkg-1.14.new/man/hm--html-menus/hm--html-mode.texi	Sun Mar 26 15:06:08 2000
+@@ -1,13 +1,19 @@
+ \input texinfo   @c -*-texinfo-*-
+ @comment %**start of header (This is for running Texinfo on a region.)
+-@setfilename hm--html-mode.info
++@setfilename ../../info/hm--html-mode.info
+ @settitle HM HTML Mode
+ @setchapternewpage odd
+ @comment %**end of header (This is for running Texinfo on a region.)
+ @comment $Id$
++
++@ifinfo
++@format
++@dircategory XEmacs Editor:
+ @direntry
+-* Hm---Html-Mode::       mode for writing HTML pages
++* Hm---Html-Mode: (hm--html-mode).      Mode for writing HTML pages
+ @end direntry
++@end format
++@end ifinfo
+ 
+ @ifinfo
+ This file documents the Elisp package @code{hm--html-menus}.

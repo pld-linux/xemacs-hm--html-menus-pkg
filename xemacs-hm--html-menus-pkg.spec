@@ -1,15 +1,16 @@
 Summary:	HTML editing
-Summary(pl):	HTML editing
+Summary(pl):	Edycja HTML
 Name:		xemacs-hm--html-menus-pkg
 %define 	srcname	hm--html-menus
 Version:	1.16
 Release:	1
 License:	GPL
 Group:		Applications/Editors/Emacs
+Group(de):	Applikationen/Editors/Emacs
 Group(pl):	Aplikacje/Edytory/Emacs
 Source0:	ftp://ftp.xemacs.org/xemacs/packages/%{srcname}-%{version}-pkg.tar.gz
 URL:		http://www.xemacs.org/
-Patch0:		xemacs-hm--html-menus-pkg-info.patch
+Patch0:		%{name}-info.patch
 BuildArch:	noarch
 Conflicts:	xemacs-sumo
 Requires:	xemacs
@@ -36,8 +37,7 @@ cp -a * $RPM_BUILD_ROOT%{_datadir}/xemacs-packages
 mv -f  $RPM_BUILD_ROOT%{_datadir}/xemacs-packages/info/*.info* $RPM_BUILD_ROOT%{_infodir}
 rm -fr $RPM_BUILD_ROOT%{_datadir}/xemacs-packages/info
 
-gzip -9nf $RPM_BUILD_ROOT%{_infodir}/*.info* \
-	lisp/hm--html-menus/ChangeLog 
+gzip -9nf lisp/hm--html-menus/ChangeLog 
 
 %clean
 rm -fr $RPM_BUILD_ROOT

@@ -2,7 +2,7 @@ Summary:	HTML editing
 Summary(pl):	HTML editing
 Name:		xemacs-hm--html-menus-pkg
 %define 	srcname	hm--html-menus
-Version:	1.14
+Version:	1.15
 Release:	1
 License:	GPL
 Group:		Applications/Editors/Emacs
@@ -23,7 +23,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %prep
 %setup -q -c
-%patch0 -p1
+#%patch0 -p1
 
 %build
 (cd man/hm--html-menus; awk '/^\\input texinfo/ {print FILENAME}' * | xargs makeinfo)

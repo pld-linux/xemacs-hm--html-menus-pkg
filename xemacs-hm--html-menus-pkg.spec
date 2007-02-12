@@ -1,5 +1,5 @@
 Summary:	HTML editing
-Summary(pl):	Edycja HTML
+Summary(pl.UTF-8):   Edycja HTML
 Name:		xemacs-hm--html-menus-pkg
 %define		srcname	hm--html-menus
 Version:	1.23
@@ -21,7 +21,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 HTML editing.
 
-%description -l pl
+%description -l pl.UTF-8
 Edycja HTML.
 
 %prep

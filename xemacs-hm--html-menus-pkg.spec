@@ -26,7 +26,7 @@ Edycja HTML.
 
 %prep
 %setup -q -c
-#%patch0 -p1
+#%%patch0 -p1
 
 %build
 cd man/hm--html-menus
